@@ -36,3 +36,8 @@ steps:
       - run: aws --version
       - run: aws s3 ls
       - run: yarn run deploy
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync jekyll/_site/docs s3://circle-production-static-site/docs/ --delete

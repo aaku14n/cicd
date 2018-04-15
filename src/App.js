@@ -14,7 +14,7 @@ class App extends Component {
           To get started edit <code>src/App.js</code> and save to reload.
         </p>
         <center>
-          <h1> CI & CD</h1>
+          <h1> CI & CD with Aakarsh</h1>
         </center>
       </div>
     );
